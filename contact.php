@@ -1,0 +1,94 @@
+<?php
+
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>Jhed Mendoza</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.php">Home</a></li>
+                <li><a href="projects.php">Projects</a></li>
+                <li><a href="contact.php" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Get In Touch</h2>
+                <!--<p class="subtitle">Let's discuss your project or idea</p>-->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <main class="container">
+        <section class="section">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div>
+                        <h3>Contact Information</h3>
+                        <div class="info-item">
+                            <span class="info-icon">✉️</span>
+                            <div>
+                                <p class="info-label">Email</p>
+                                <a href="mailto:mendoza.jhed.wharvey@gmail.com">mendoza.jhed.wharvey@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">📱</span>
+                            <div>
+                                <p class="info-label">Phone</p>
+                                <p>+63 916 746 2548</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">📍</span>
+                            <div>
+                                <p class="info-label">Location</p>
+                                <p>San Pablo City, Laguna</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3>References</h3>
+                        <div class="reference-card">
+                            <p class="ref-name">Vanessa T. Isaga</p>
+                            <p class="ref-title">College Instructor / Advisor</p>
+                            <p class="ref-contact">Phone: 09186510276</p>
+                            <p class="ref-contact">Email: vanessa.isaga@dlsl.edu.ph</p>
+                        </div>
+                        <div class="reference-card">
+                            <p class="ref-name">Adorable Dauz</p>
+                            <p class="ref-title">LBC I.T. Network Manager</p>
+                            <p class="ref-contact">Phone: 09605603083</p>
+                            <p class="ref-contact">Email: anddauz@lbcexpress.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <?php echo date('Y'); ?> Jhed Mendoza. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
